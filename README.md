@@ -1,15 +1,16 @@
 # nSoRU
 
-Author: GalaadSubileau
+*Author: GalaadSubileau*
 
 **nSoRU:** an n-th useless copy of Brainfuck
 
 Only tool provided: translator.py, translates nSoRU files to Brainfuck code.
 
-"Features" of the language:
+## "Features" of the language
  - Supports comments ("#")
  - Supports tabs
  
+## Commands
 |nSoRU  |Brainfuck  |Meaning|
 |---    |---        |---|
 |`roses`  |`>`        |Increment the data pointer to point to the next cell to the right.|
@@ -22,3 +23,8 @@ Only tool provided: translator.py, translates nSoRU files to Brainfuck code.
 |`sweet`  |`]`        |If the byte at the data pointer is nonzero, then instead of moving the instruction pointer forward to the next command, jump it *back* to the command after the *matching* `[` command.|
 
 Commands must be seperated by spaces.
+
+
+## Credits
+ - <a href="https://en.wikipedia.org/wiki/Brainfuck">Wikipedia</a> for the description of the commands
+ - CMU StuCo course 98-242: Introduction to Esoteric Programming Languages (Spring 2023, instructors: Gil, David, Harrison, and Ethan)
